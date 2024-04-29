@@ -1,0 +1,63 @@
+.logo_pic{
+    height: 10em;
+}
+
+#h_text{
+    color: #1877f2;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 64%;
+    border: black 1px solid;
+    border-radius: 12px;
+    padding-top: 23px;
+}
+
+.f_text{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.inp{
+    border: 1px solid black;
+    height: 42px;
+    border-radius: 5px;
+    padding-left: 11px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.log_btn{
+    width: 19em;
+    margin-top: 20px;
+    height: 42px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+}
+
+.forgot_btn{
+    border: none;
+    margin-top: 20px;
+    color: #1877f2;
+}
+
+.create_btn{
+    margin-top: 20px;
+    border: none;
+    background-color: #64a500;
+    width: 13.5em;
+    height: 42px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}

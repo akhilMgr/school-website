@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhanudaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <script>
+       
+       document.getElementById("log_bt").onclick = function(){
+           var email = document.getElementById("email_txt");
+           console.log(email);
+       }
+    
+    </script>
+    
+    
+    <div class="container">
+       <div class="header">
+           <center>
+               <img src="logo.png" class="logo_pic">
+                <h1 id="h_text">Bhanudaya Model Secondary School</h1>
+            </center>
+        </div>
+        <center>
+        <div class="footer">
+            <font class="f_text">Log Into The School Website</font>
+            <input type="text" size="30" placeholder="Email or phone number" class="inp" id="email_txt">
+            <input type="text" size="30" placeholder="Password" class="inp" id="password_txt">
+            <input type="button" class="log_btn" id="log_bt">
+            <button class="forgot_btn" id="forgot_bt"><label class="forgot_text">Forgot account?</label></button>
+            <button class="create_btn" id="create_bt"><label class="create_text">Create new account</label></button>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
